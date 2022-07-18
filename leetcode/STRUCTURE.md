@@ -12,3 +12,5 @@ The language names are standardized as follows:
 - `js` (shorthand for JavaScript)
 - `py` (shorthand for Python)
 - `ts` (shorthand for TypeScript)
+
+Inside each language folder there will usually be two files, `test` (which contains test cases) and `solution` (which contains the solution).
