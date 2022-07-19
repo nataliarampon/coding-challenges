@@ -9,9 +9,21 @@ Coding exercises involving arrays:
 - [724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 
+## Hash Maps
+The hash map, also known as dictionary, is a data structure that maps keys to values, with roughly O(1) access to the value if one has the corresponding key. A hash map uses a hash function to determine where the value is going to be stored. On lookup, the key is hashed to find the corresponding value. This data structure offers fast lookup at a high memory expense. [Hash maps on Wikipedia](https://en.wikipedia.org/wiki/Hash_table). 
+
+Coding exercises involving hash maps:
+- [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
+
 ## Prefix Sum
-The prefix sum, also known as the cumulative sum, is a sequence of numbers `y` as such that each element of the sequence is the running total of the elements from another sequence `x`. That is, `y0 = x0` ; `y1 = x0 + x1` ; `y2 = x0 + x1 + x2`.
+The prefix sum, also known as the cumulative sum, is a sequence of numbers `y` as such that each element of the sequence is the running total of the elements from another sequence `x`. That is, `y0 = x0` ; `y1 = x0 + x1` ; `y2 = x0 + x1 + x2`. [Prefix Sum on Wikipedia](https://en.wikipedia.org/wiki/Prefix_sum).
 
 Coding exercises involving prefix sum:
 - [724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
+
+## Strings
+Strings are sequence of characters, so they are any kind of text found in code. [Strings in Wikipedia](https://en.wikipedia.org/wiki/String_(computer_science)).
+
+Coding exercises involving strings:
+- [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
