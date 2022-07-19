@@ -2,7 +2,7 @@ import { expect } from "chai";
 import "mocha";
 import { solution } from "./solution";
 
-describe("Running sum of 1D array", () => {
+describe("Find pivot index", () => {
     it("should pass test case #1", () => {
         const input:Array<number> = [1,7,3,6,5,6];
         const expectedResult = 3;
