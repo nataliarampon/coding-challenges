@@ -30,6 +30,33 @@ describe("Is subsequence", () => {
         expect(result).to.equal(expectedResult);
     });
 
+    it("should pass test case #4", () => {
+        const subsequence = "ace";
+        const originalString = "abcde";
+        const expectedResult = true;
+
+        const result:boolean = solution(subsequence, originalString);
+        expect(result).to.equal(expectedResult);
+    });
+
+    it("should pass test case #5", () => {
+        const subsequence = "aec";
+        const originalString = "abcde";
+        const expectedResult = false;
+
+        const result:boolean = solution(subsequence, originalString);
+        expect(result).to.equal(expectedResult);
+    });
+
+    it("should pass subsequence longer than string", () => {
+        const subsequence = "aecccccccccc";
+        const originalString = "abcde";
+        const expectedResult = false;
+
+        const result:boolean = solution(subsequence, originalString);
+        expect(result).to.equal(expectedResult);
+    });
+
     it("should pass same string test case", () => {
         const subsequence = "abc";
         const originalString = "abc";
