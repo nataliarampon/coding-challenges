@@ -30,6 +30,24 @@ describe("Isomorphic strings", () => {
         expect(result).to.equal(expectedResult);
     });
 
+    it("should pass test case #4", () => {
+        const originalString = "bbbaaaba";
+        const comparisonString = "aaabbbba";
+        const expectedResult = false;
+
+        const result:boolean = solution(originalString, comparisonString);
+        expect(result).to.equal(expectedResult);
+    });
+
+    it("should pass test case #5", () => {
+        const originalString = "badc";
+        const comparisonString = "baba";
+        const expectedResult = false;
+
+        const result:boolean = solution(originalString, comparisonString);
+        expect(result).to.equal(expectedResult);
+    });
+
     it("should pass no change test case", () => {
         const originalString = "dummy";
         const comparisonString = "dummy";
