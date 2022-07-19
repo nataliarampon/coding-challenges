@@ -27,14 +27,6 @@ describe("Running sum of 1D array", () => {
         expect(result).to.deep.equal(expectedResult);
     });
 
-    it("should pass empty test case", () => {
-        const input:Array<number> = [];
-        const expectedResult:Array<number> = [];
-
-        const result:Array<number> = solution(input);
-        expect(result).to.deep.equal(expectedResult);
-    });
-
     it("should pass zeroed array test case", () => {
         const input:Array<number> = [0,0,0];
         const expectedResult:Array<number> = [0,0,0];
