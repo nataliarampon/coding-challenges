@@ -2,7 +2,7 @@ import { expect } from "chai";
 import "mocha";
 import { ListNode, solution } from "./solution";
 
-describe.only("Isomorphic strings", () => {
+describe("Isomorphic strings", () => {
     it("should pass test case #1", () => {
         const list1: ListNode | null = generateNodeListFromArray([1,2,4]);
         const list2: ListNode | null = generateNodeListFromArray([1,3,4]);
