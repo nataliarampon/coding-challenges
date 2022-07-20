@@ -9,6 +9,12 @@ Coding exercises involving arrays:
 - [724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 
+## Dynamic Programming
+It is a faster alternative to recursion problems which have repeatable operations, relying on saving the results of previous calculations. The Fibonacci sequence is a classic example, where `F(i) = F(i-1) + F(i-2)`, but `F(i-1) = F(i-2) + F(i-3`, therefore we have to calculate `F(i-2)` multiple times. DP usually finds application in problems which can be broken into sub-problems/sub-domains. Since it relies on saving operations, it is a technique heavy on memory (usually involving the creation of arrays and matrices). [Dynamic programming on Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming).
+
+Coding exercises involving dynamic programming:
+- [392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
+
 ## Hash Maps
 The hash map, also known as dictionary, is a data structure that maps keys to values, with roughly O(1) access to the value if one has the corresponding key. A hash map uses a hash function to determine where the value is going to be stored. On lookup, the key is hashed to find the corresponding value. This data structure offers fast lookup at a high memory expense. [Hash maps on Wikipedia](https://en.wikipedia.org/wiki/Hash_table). 
 
@@ -27,3 +33,4 @@ Strings are sequence of characters, so they are any kind of text found in code. 
 
 Coding exercises involving strings:
 - [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
+- [392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
