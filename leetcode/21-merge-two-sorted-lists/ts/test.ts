@@ -1,6 +1,7 @@
 import { expect } from "chai";
 import "mocha";
-import { ListNode, solution } from "./solution";
+import { compareListNodes, generateNodeListFromArray, ListNode } from "../../util/list/list";
+import { solution } from "./solution";
 
 describe("Isomorphic strings", () => {
     it("should pass test case #1", () => {
@@ -43,22 +44,3 @@ describe("Isomorphic strings", () => {
         expect(compareListNodes(expectedResult, result)).to.be.true;
     });
 });
-
-function generateNodeListFromArray(array:Array<number>): ListNode | null {
-    return array.length == 0 ? null : new ListNode(array[0], generateNodeListFromArray(array.slice(1)));
-}
-
-function compareListNodes(result: ListNode | null, expectedResult: ListNode | null): boolean {
-    let pointerResult: ListNode | null = result;
-    let pointerExpected: ListNode | null = expectedResult;
-    
-    while (pointerExpected && pointerResult) {
-        if (pointerExpected.val !== pointerResult.val) {
-            return false;
-        }
-        pointerExpected = pointerExpected.next;
-        pointerResult = pointerResult.next;
-    } 
-
-    return pointerResult == null && pointerExpected == null;
-}
