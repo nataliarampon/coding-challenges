@@ -28,6 +28,12 @@ Coding exercises involving prefix sum:
 - [724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 
+## Recursion
+It is the definition of a thing based on itself. In the case of programming functions, it is when a function is called inside itself. We always need a stop condition when using recursion, or we may incur in an infinite recursion and stack overflow. [Recursion on Wikipedia](https://en.wikipedia.org/wiki/Recursion).
+
+Coding exercises involving recursion:
+- [21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
+
 ## Strings
 Strings are sequence of characters, so they are any kind of text found in code. [Strings in Wikipedia](https://en.wikipedia.org/wiki/String_(computer_science)).
 
