@@ -35,15 +35,15 @@ export function dynamicProgrammingSolution(subsequence: string, originalString: 
                 if (i == 0 || j == 0) {
                     matrix[i][j] = true;
                 } else {
-                    // if a new character matches, it will be a match if the previous character on the subsequence matched up to one character before on the string
+                    // if a new character matches, it will be a match if the previous character on the subsequence matched up to one character before in the string
                     matrix[i][j] = matrix[i-1][j-1];
                 }
             } else {
                 if (j == 0) {
                     matrix[i][j] = false;
                 } else {
-                    // if no match happens, the new subsequence will still match if it previously matched to the character before on the string
-                    // if it did not match anything new, it matters not if the subsequence (i) matched before or not, because we are not furthering our knowledge
+                    // if no match happens, the new subsequence will still match if it previously matched to the character before in the string
+                    // if it did not match anything new, it matters not if the subsequence (i) matched before, because we are not furthering our knowledge
                     matrix[i][j] = matrix[i][j-1];
                 }
             }
