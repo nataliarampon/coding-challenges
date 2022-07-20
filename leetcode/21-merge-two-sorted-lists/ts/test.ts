@@ -3,7 +3,7 @@ import "mocha";
 import { compareListNodes, generateNodeListFromArray, ListNode } from "../../util/list/list";
 import { solution } from "./solution";
 
-describe("Isomorphic strings", () => {
+describe("Merge two sorted lists", () => {
     it("should pass test case #1", () => {
         const list1: ListNode | null = generateNodeListFromArray([1,2,4]);
         const list2: ListNode | null = generateNodeListFromArray([1,3,4]);
