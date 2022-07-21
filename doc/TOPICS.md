@@ -33,6 +33,7 @@ It is the definition of a thing based on itself. In the case of programming func
 
 Coding exercises involving recursion:
 - [21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
+- [206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
 
 ## Strings
 Strings are sequence of characters, so they are any kind of text found in code. [Strings in Wikipedia](https://en.wikipedia.org/wiki/String_(computer_science)).
