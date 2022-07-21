@@ -29,3 +29,16 @@ export function solution(head: ListNode | null, previous: ListNode | null = null
      */
     return solution(current, head);
 }
+
+export function solutionIterative(head: ListNode | null): ListNode | null {
+    let previous: ListNode | null = null;
+    let current: ListNode | null = null;
+
+    while (head) {
+        current = head.next;
+        head.next = previous;
+        previous = head;
+        head = current;
+    }
+    return previous;
+}
