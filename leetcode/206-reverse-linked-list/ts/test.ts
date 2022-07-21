@@ -22,6 +22,15 @@ describe("Reverse Linked List", () => {
         expect(compareListNodes(expectedResult, revertedList)).to.be.true;
     });
 
+    it("should pass one node test case", () => {
+        const input: ListNode | null = generateNodeListFromArray([1]);
+        const expectedResult: ListNode | null = generateNodeListFromArray([1]);
+
+        const revertedList: ListNode | null = solution(input);
+
+        expect(compareListNodes(expectedResult, revertedList)).to.be.true;
+    });
+
     it("should pass empty lists test case", () => {
         const input: ListNode | null = generateNodeListFromArray([]);
         const expectedResult: ListNode | null = generateNodeListFromArray([]);
