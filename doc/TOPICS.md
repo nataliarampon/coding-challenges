@@ -21,6 +21,15 @@ The hash map, also known as dictionary, is a data structure that maps keys to va
 Coding exercises involving hash maps:
 - [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
 
+## Linked Lists
+Linkeds lists are an ordered, linear data structure in which nodes containing values point to other nodes in a sequence. This differs from arrays in that the nodes are not necessarily beside one another in memory, thus we cannot access the linked list elements through indexes. The traversal up to a node `n` in a linked list has a cost of `O(n)`. [Linked lists on Wikipedia](https://en.wikipedia.org/wiki/Linked_list).
+
+Coding exercises involving linked lists:
+- [21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
+- [206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
+- [876](../leetcode/876-middle-of-linked-list/): Find middle of linked list (`easy`)
+- [142](../leetcode/142-linked-list-cycle/): Find cycle in linked list (`medium`)
+
 ## Prefix Sum
 The prefix sum, also known as the cumulative sum, is a sequence of numbers `y` as such that each element of the sequence is the running total of the elements from another sequence `x`. That is, `y0 = x0` ; `y1 = x0 + x1` ; `y2 = x0 + x1 + x2`. [Prefix Sum on Wikipedia](https://en.wikipedia.org/wiki/Prefix_sum).
 
