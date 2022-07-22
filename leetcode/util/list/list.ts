@@ -26,3 +26,26 @@ export function compareListNodes(result: ListNode | null, expectedResult: ListNo
 
     return pointerResult == null && pointerExpected == null;
 }
+
+export function generateListWithCycleFromArray(array:Array<number>, cyclePosition: number): ListNode | null {
+    let cycleNode: ListNode | null = null;
+    let current: ListNode | null;
+
+    if (cyclePosition < 0 || array.length == 0 || (cyclePosition > array.length - 1)) {
+        return null;
+    }
+
+    const head: ListNode | null = current = new ListNode(array[0], null);
+
+    for (let i = 1; i < array.length; i ++) {
+        current.next = new ListNode(array[i], current);
+        current = current?.next;
+        if (i == cyclePosition) {
+            cycleNode = current;
+        }
+    }
+
+    current.next = cycleNode ?? head;
+
+    return head;
+}
