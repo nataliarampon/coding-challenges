@@ -20,6 +20,7 @@ The hash map, also known as dictionary, is a data structure that maps keys to va
 
 Coding exercises involving hash maps:
 - [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
+- [1](../leetcode/1-two-sum/): Two Sum (`easy`)
 
 ## Linked Lists
 Linkeds lists are an ordered, linear data structure in which nodes containing values point to other nodes in a sequence. This differs from arrays in that the nodes are not necessarily beside one another in memory, thus we cannot access the linked list elements through indexes. The traversal up to a node `n` in a linked list has a cost of `O(n)`. [Linked lists on Wikipedia](https://en.wikipedia.org/wiki/Linked_list).
