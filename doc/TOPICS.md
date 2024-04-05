@@ -50,6 +50,7 @@ A stack is a data structure with serves as a collection of elements, with two op
 
 Coding exercises involving stacks:
 - [1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
+- [1544](../leetcode/1544-make-the-string-great/): Make the string great (`easy`)
 
 
 ## Strings
@@ -59,3 +60,4 @@ Coding exercises involving strings:
 - [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
 - [392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
 - [1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
+- [1544](../leetcode/1544-make-the-string-great/): Make the string great (`easy`)
