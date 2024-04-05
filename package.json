@@ -12,6 +12,6 @@
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
-    "test": "mocha -r ts-node/register leetcode/**/test.ts"
+    "test": "mocha -r ts-node/register leetcode/**/**/test.ts"
   }
 }
