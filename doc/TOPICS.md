@@ -45,9 +45,17 @@ Coding exercises involving recursion:
 - [21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
 - [206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
 
+## Stack
+A stack is a data structure with serves as a collection of elements, with two operations: push and pop. It's a LIFO (last in, first out) list, meaning you can only add to the top of the stack and remove from the top of the stack. [Stacks on Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
+
+Coding exercises involving stacks:
+- [1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
+
+
 ## Strings
 Strings are sequence of characters, so they are any kind of text found in code. [Strings in Wikipedia](https://en.wikipedia.org/wiki/String_(computer_science)).
 
 Coding exercises involving strings:
 - [205](../leetcode/205-isomorphic-strings/): Isomorphic strings (`easy`)
 - [392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
+- [1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
