@@ -31,6 +31,7 @@ Coding exercises involving linked lists:
 - [206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
 - [876](../leetcode/876-middle-of-linked-list/): Find middle of linked list (`easy`)
 - [142](../leetcode/142-linked-list-cycle/): Find cycle in linked list (`medium`)
+- [2](../leetcode/2-add-two-numbers/): Add two numbers (`medium`)
 
 ## Prefix Sum
 The prefix sum, also known as the cumulative sum, is a sequence of numbers `y` as such that each element of the sequence is the running total of the elements from another sequence `x`. That is, `y0 = x0` ; `y1 = x0 + x1` ; `y2 = x0 + x1 + x2`. [Prefix Sum on Wikipedia](https://en.wikipedia.org/wiki/Prefix_sum).
