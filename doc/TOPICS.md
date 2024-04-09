@@ -46,6 +46,7 @@ It is the definition of a thing based on itself. In the case of programming func
 Coding exercises involving recursion:
 - [21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
 - [206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
+- [2](../leetcode/2-add-two-numbers/): Add two numbers (`medium`)
 
 ## Stack
 A stack is a data structure with serves as a collection of elements, with two operations: push and pop. It's a LIFO (last in, first out) list, meaning you can only add to the top of the stack and remove from the top of the stack. [Stacks on Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
