@@ -1,4 +1,4 @@
-# interview-prep
+# coding-challenges
 Coding exercises using different data structures and programming paradigms to practice programming for fun.
 
 ## Pre-requisites
