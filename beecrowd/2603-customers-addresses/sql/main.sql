@@ -21,7 +21,7 @@ VALUES
   (5,	'Marcos Antônio dos Santos',	'Av Farrapos',	'Porto Alegre',	'RS',	4250.25);
 
 /* Show name and street of customers from Porto Alegre */
-SELECT name, street FROM customers WHERE city = "Porto Alegre";
+SELECT name, street FROM customers WHERE city = 'Porto Alegre';
 
   /*  Execute this query to drop the tables */
   -- DROP TABLE customers; --
