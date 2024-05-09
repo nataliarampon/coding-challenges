@@ -9,11 +9,11 @@ def isPrime(n):
       return False
   return True
 
-if __name__ == '__main__':
+def main():
   n = int(input())
 
   for i in range(n, 6, -1):
-    # for numbers greater than or equal to 7, the number between two prime twins must be divisble by 6
+    # for numbers greater than or equal to 7, the number between two prime twins must be divisible by 6
     # so no need to test those who aren't
     if (i - 1) % 6 == 0:
       if (isPrime(i) and isPrime(i-2)):
@@ -25,3 +25,6 @@ if __name__ == '__main__':
       if (isPrime(i) and isPrime(i-2)):
         print("{} {}".format(i-2, i))
         break
+
+if __name__ == '__main__':
+  main()
