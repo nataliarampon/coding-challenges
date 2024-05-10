@@ -6,6 +6,7 @@ def getPossibilites(n):
   if n == 2:
     return 2
 
+  # tribonacci sequence
   return getPossibilites(n-1) + getPossibilites(n-2) + getPossibilites(n-3)
 
 # dynamic programming approach

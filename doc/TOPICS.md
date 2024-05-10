@@ -2,6 +2,12 @@
 
 In order to facilitate the study of topics on a need-to-know basis, the coding exercises related to each topic are listed below. Some exercises cover more than one topic and thus may appear in more than one list. Each problem has its difficulty specified as shown on Leetcode or Beecrowd. 
 
+## Arithmetic Progression
+Arithmetic progression (AP) is a sequence of numbers where the difference between each preceding and succeeding term is constant. There are known formulas to calculate the Nth term of an AP and its sum to the Nth member (called an arithmetic series). For example, the sequence 1, 3, 5, 7, ... is an AP with a difference constant of 2. [Arithmetic Progression on Wikipedia](https://en.wikipedia.org/wiki/Arithmetic_progression).
+
+Coding exercises involving arithmetic progressions:
+- [BC #2218](../beecrowd/2218-the-terrible-evilson/): The terrible Evil-Son (`level 1`)
+
 ## Arrays
 Arrays are a data structure consisting of a list of ordered elements. Each element may be identified by an array index, which denotes its position inside the array. Array indexes normally start at `0` and end at `n-1` (`n` being the array length). [Arrays on Wikipedia](https://en.wikipedia.org/wiki/Array_data_structure).
 
@@ -16,6 +22,12 @@ It is a faster alternative to recursion problems which have repeatable operation
 Coding exercises involving dynamic programming:
 - [LC #392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
 - [BC #2986](../beecrowd/2986-not-all-strikes/): Nem Tudo é Greve Versão Hard (`level 1`)
+
+## Greatest Common Divisor
+The Greatest Common Divisor (GCD) of two or more integers is the largest positive integer that divides each of them. One can calculate the GCD by the recursive Euclidean Algorithm: `gcd(x,y) => gcd(y, x % y) ...` until `gcd(d, 0)` where `d` is the GCD. [GCD on Wikipedia](https://en.wikipedia.org/wiki/Greatest_common_divisor).
+
+Coding exercises involving greatest common divisors:
+- [BC #1630](../beecrowd/1630-stakes/): Stakes (`level 1`)
 
 ## Hash Maps
 The hash map, also known as dictionary, is a data structure that maps keys to values, with roughly O(1) access to the value if one has the corresponding key. A hash map uses a hash function to determine where the value is going to be stored. On lookup, the key is hashed to find the corresponding value. This data structure offers fast lookup at a high memory expense. [Hash maps on Wikipedia](https://en.wikipedia.org/wiki/Hash_table). 
