@@ -22,6 +22,7 @@ It is a faster alternative to recursion problems which have repeatable operation
 Coding exercises involving dynamic programming:
 - [LC #392](../leetcode/392-is-subsequence/): Is subsequence (`easy`)
 - [BC #2986](../beecrowd/2986-not-all-strikes/): Nem Tudo é Greve Versão Hard (`level 1`)
+- [BC #1029](../beecrowd/1029-fibonacci-calls/): Fibonacci Calls (`level 4`)
 
 ## Greatest Common Divisor
 The Greatest Common Divisor (GCD) of two or more integers is the largest positive integer that divides each of them. One can calculate the GCD by the recursive Euclidean Algorithm: `gcd(x,y) => gcd(y, x % y) ...` until `gcd(d, 0)` where `d` is the GCD. [GCD on Wikipedia](https://en.wikipedia.org/wiki/Greatest_common_divisor).
