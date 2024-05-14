@@ -67,6 +67,7 @@ A stack is a data structure with serves as a collection of elements, with two op
 Coding exercises involving stacks:
 - [LC #1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
 - [LC #1544](../leetcode/1544-make-the-string-great/): Make the string great (`easy`)
+- [BC #1069](../beecrowd/1069-diamonds-n-sand/): Diamonds and sand (`level 3`)
 
 
 ## Strings
