@@ -16,6 +16,12 @@ Coding exercises involving arrays:
 - [LC #1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 - [LC #2073](../leetcode/2073-time-needed-to-buy-tickets/): Time need to buy tickets (`easy`)
 
+## Deque
+A deque is a double-ended queue, where elements can be added or removed from either end (head or tail). Deque is an abbreviation for double-ended queue, but it's similar to a deck of cards too. [Deques on Wikipedia](https://en.wikipedia.org/wiki/Double-ended_queue).
+
+Coding exercises involving deques:
+- [BC #1110](../beecrowd/1110-throwing-cards/): Throwing Cards Away (`level 3`)
+
 ## Dynamic Programming
 It is a faster alternative to recursion problems which have repeatable operations, relying on saving the results of previous calculations. The Fibonacci sequence is a classic example, where `F(i) = F(i-1) + F(i-2)`, but `F(i-1) = F(i-2) + F(i-3`, therefore we have to calculate `F(i-2)` multiple times. DP usually finds application in problems which can be broken into sub-problems/sub-domains. Since it relies on saving operations, it is a technique heavy on memory (usually involving the creation of arrays and matrices). [Dynamic programming on Wikipedia](https://en.wikipedia.org/wiki/Dynamic_programming).
 
