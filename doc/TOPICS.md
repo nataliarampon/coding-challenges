@@ -60,6 +60,13 @@ Coding exercises involving prefix sum:
 - [LC #724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [LC #1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 
+## Prime Number
+A number is a prime if it's only divisible by 1 and itself (i.e.: it is not a product of two smaller natural numbers). [Prime numbers on Wikipedia](https://en.wikipedia.org/wiki/Prime_number).
+
+Coding exercises involving prime numbers:
+- [BC #3165](../beecrowd/3165-twin-primes/): Twin primes (`level 1`)
+- [BC #1221](../beecrowd/1221-quick-prime/): Quick prime (`level 6`)
+
 ## Recursion
 It is the definition of a thing based on itself. In the case of programming functions, it is when a function is called inside itself. We always need a stop condition when using recursion, or we may incur in an infinite recursion and stack overflow. [Recursion on Wikipedia](https://en.wikipedia.org/wiki/Recursion).
 
