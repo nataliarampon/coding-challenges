@@ -7,6 +7,7 @@ Arithmetic progression (AP) is a sequence of numbers where the difference betwee
 
 Coding exercises involving arithmetic progressions:
 - [BC #2218](../beecrowd/2218-the-terrible-evilson/): The terrible Evil-Son (`level 1`)
+- [BC #1805](../beecrowd/1805-natural-sum/): Natural sum (`level 6`)
 
 ## Arrays
 Arrays are a data structure consisting of a list of ordered elements. Each element may be identified by an array index, which denotes its position inside the array. Array indexes normally start at `0` and end at `n-1` (`n` being the array length). [Arrays on Wikipedia](https://en.wikipedia.org/wiki/Array_data_structure).
