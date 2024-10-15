@@ -83,6 +83,7 @@ Coding exercises involving stacks:
 - [LC #1614](../leetcode/1614-maximum-nesting-depth/): Maximum nesting depth of the parentheses (`easy`)
 - [LC #1544](../leetcode/1544-make-the-string-great/): Make the string great (`easy`)
 - [BC #1069](../beecrowd/1069-diamonds-n-sand/): Diamonds and sand (`level 3`)
+- [BC #1062](../beecrowd/1062/): Rails (`level 4`)
 
 
 ## Strings
