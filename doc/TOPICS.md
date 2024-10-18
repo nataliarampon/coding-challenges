@@ -16,6 +16,7 @@ Coding exercises involving arrays:
 - [LC #724](../leetcode/724-find-pivot-index/): Find pivot index (`easy`)
 - [LC #1480](../leetcode/1480-running-sum-of-1d-array/): Running sum of 1D array (`easy`)
 - [LC #2073](../leetcode/2073-time-needed-to-buy-tickets/): Time need to buy tickets (`easy`)
+- [BC #1162](../beecrowd/1162/): Inversions of Array Count (`level 3`)
 
 ## Deque
 A deque is a double-ended queue, where elements can be added or removed from either end (head or tail). Deque is an abbreviation for double-ended queue, but it's similar to a deck of cards too. [Deques on Wikipedia](https://en.wikipedia.org/wiki/Double-ended_queue).
@@ -75,6 +76,12 @@ Coding exercises involving recursion:
 - [LC #21](../leetcode/21-merge-two-sorted-lists/): Merge two sorted lists (`easy`)
 - [LC #206](../leetcode/206-reverse-linked-list/): Reverse linked list (`easy`)
 - [LC #2](../leetcode/2-add-two-numbers/): Add two numbers (`medium`)
+
+## Sorting
+A sorting algorithm is an algorithm that puts elements of a list into a giving order. [Sorting algorithsm on Wikipedia](https://en.wikipedia.org/wiki/Sorting_algorithm).
+
+Coding exercises involving specific sorting algorithms:
+- [BC #1162](../beecrowd/1162/): Merge Sort (`level 3`)
 
 ## Stack
 A stack is a data structure with serves as a collection of elements, with two operations: push and pop. It's a LIFO (last in, first out) list, meaning you can only add to the top of the stack and remove from the top of the stack. [Stacks on Wikipedia](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)).
