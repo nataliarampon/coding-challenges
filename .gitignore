@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore all, for binaries with no extension
+**/c++/*
+
+# Unignore files with extensions
+!**/c++/*.*
+
 # Distribution / packaging
 .Python
 build/
@@ -262,3 +268,6 @@ dist
 
 # db
 *.db
+
+# VS Code
+tasks.json
