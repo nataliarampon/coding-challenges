@@ -28,3 +28,8 @@ sqlite3>.read main.sql
 ```bash
 npm run test
 ``` 
+
+## Compiling C++ Code
+```bash
+g++ -o <number>/c++/main <number>/c++/main.cpp -std=c++20
+```
