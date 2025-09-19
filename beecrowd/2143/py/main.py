@@ -1,5 +1,3 @@
-from datetime import date
-
 def main():
   while True:
     cases = int(input())
